@@ -11,17 +11,17 @@ void draw()
 {
 	background(255);
 	sum = 0;
-	for(int x=50;x<=500;x+=150) {
+	for(int x=50;x<500;x+=150) {
 		Die newDie = new Die(x,50);
 		newDie.show();
 		newDie.roll();
 	}
-	for(int x=50;x<=500;x+=150) {
+	for(int x=50;x<500;x+=150) {
 		Die newDie = new Die(x,200);
 		newDie.show();
 		newDie.roll();
 	}
-	for(int x=50;x<=500;x+=150) {
+	for(int x=50;x<500;x+=150) {
 		Die newDie = new Die(x,350);
 		newDie.show();
 		newDie.roll();
